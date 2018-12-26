@@ -5,7 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
-<<<<<<< HEAD
     font-size: .16rem;
 }
 
@@ -14,7 +13,6 @@ html {
     width: 100%;
     height: 100%;
     font-size: 100px;
-=======
     font-size: .15rem;
 }
 
@@ -23,15 +21,55 @@ body {
     font-size: 100px;
     width: 100%;
     height: 100%;
->>>>>>> cb6c828e0321b4ba7a772bdb8c379c40004849fb
 }
 
 .wrap {
     width: 100%;
     height: 100%;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: .5rem;
+    padding: 0 .15rem;
+    line-height: .5rem;
+}
+
+header h3 {
+    color: #464646;
+    font-size: .18rem;
+}
+
+.top {
+    width: 100%;
+    height: .5rem;
+    padding: 0 .15rem;
+}
+
+.top form {
+    width: 100%;
+    height: .35rem;
+    position: relative;
+}
+
+.top form input {
+    width: 100%;
+    height: 100%;
+    border-radius: .1rem;
+    border: 0;
+    background: #EFEFEF;
+}
+
+.top form input::-webkit-input-placeholder {
+    padding-left: .4rem;
+}
+
+.top form i {
+    position: absolute;
+    top: .08rem;
+    left: .1rem;
 }
 
 section {
@@ -62,7 +100,6 @@ footer ul li {
 
 footer ul li i {
     margin-bottom: .02rem;
-=======
     justify-content: space-between;
     flex-direction: column;
 }
@@ -129,5 +166,4 @@ footer ul li i {
 
 section {
     flex: 1;
->>>>>>> cb6c828e0321b4ba7a772bdb8c379c40004849fb
 }
