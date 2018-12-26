@@ -5,7 +5,6 @@
     text-decoration: none;
     box-sizing: border-box;
     outline: none;
-<<<<<<< HEAD
     font-size: .16rem;
 }
 
@@ -14,7 +13,6 @@ html {
     width: 100%;
     height: 100%;
     font-size: 100px;
-=======
     font-size: .15rem;
 }
 
@@ -23,14 +21,12 @@ body {
     font-size: 100px;
     width: 100%;
     height: 100%;
->>>>>>> cb6c828e0321b4ba7a772bdb8c379c40004849fb
 }
 
 .wrap {
     width: 100%;
     height: 100%;
     display: flex;
-<<<<<<< HEAD
     flex-direction: column;
 }
 
@@ -62,72 +58,6 @@ footer ul li {
 
 footer ul li i {
     margin-bottom: .02rem;
-=======
     justify-content: space-between;
     flex-direction: column;
-}
-
-.section-wrap {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container-left {
-    width: 100%;
-    height: auto;
-}
-
-.container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding: 0 .15rem;
-    flex-wrap: wrap;
-}
-
-.section-scroll-left {
-    flex: 2;
-}
-
-.container dl {
-    width: 33%;
-    height: auto;
-}
-
-.container-left li {
-    color: #666;
-    margin-top: .2rem;
-    text-align: center;
-}
-
-.section-scroll-right {
-    flex: 8;
-}
-
-.container dl dt img {
-    margin-left: .1rem;
-}
-
-.container dl dd {
-    color: #666;
-    font-size: .12rem;
-}
-
-.wrap-left {
-    width: 100%;
-    height: 3.3rem;
-    overflow: hidden;
-}
-
-.wrapper-right {
-    width: 100;
-    height: 3.1rem;
-    overflow: hidden;
-}
-
-section {
-    flex: 1;
->>>>>>> cb6c828e0321b4ba7a772bdb8c379c40004849fb
 }
